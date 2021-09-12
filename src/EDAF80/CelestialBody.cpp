@@ -6,6 +6,10 @@
 #include "core/helpers.hpp"
 #include "core/Log.h"
 
+const glm::vec3 X_AXIS = {1, 0 ,0};
+const glm::vec3 Y_AXIS = {0, 1 ,0};
+const glm::vec3 Z_AXIS = {0, 0 ,1};
+
 CelestialBody::CelestialBody(bonobo::mesh_data const& shape,
                              GLuint const* program,
                              GLuint diffuse_texture_id)
@@ -26,14 +30,24 @@ glm::mat4 CelestialBody::render(std::chrono::microseconds elapsed_time,
 	// milliseconds, the following would have been used:
 	// auto const elapsed_time_ms = std::chrono::duration<float, std::milli>(elapsed_time).count();
 
-	_body.spin.rotation_angle = -glm::half_pi<float>() / 2.0f;
+    _body.spin.rotation_angle += _body.orbit.speed * elapsed_time_s;
 
 	glm::mat4 world = parent_transform;
 
-	if (show_basis)
-	{
-		bonobo::renderBasis(1.0f, 2.0f, view_projection, world);
-	}
+    this->set_scale(glm::vec3(1, 1, 1));
+    glm::mat4 m_scale = glm::scale(glm::mat4(1.0), _body.scale);
+
+    glm::mat4 m_r1s = glm::rotate(glm::mat4(1.0), _body.spin.rotation_angle, Y_AXIS);
+    glm::mat4 m_r2s = glm::rotate(glm::mat4(1.0), -glm::half_pi<float>() / 10, Z_AXIS);
+
+    world = world * m_scale;
+    world = world * m_r1s;
+    world = world * m_r2s;
+
+	if (show_basis){
+        bonobo::renderBasis(1.0f, 2.0f, view_projection, world);
+    }
+
 
 	// Note: The second argument of `node::render()` is supposed to be the
 	// parent transform of the node, not the whole world matrix, as the
@@ -41,6 +55,7 @@ glm::mat4 CelestialBody::render(std::chrono::microseconds elapsed_time,
 	// manage all the local transforms ourselves, so the internal transform
 	// of the node is just the identity matrix and we can forward the whole
 	// world matrix.
+
 	_body.node.render(view_projection, world);
 
 	return parent_transform;
