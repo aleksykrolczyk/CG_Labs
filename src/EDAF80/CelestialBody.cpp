@@ -35,14 +35,21 @@ glm::mat4 CelestialBody::render(std::chrono::microseconds elapsed_time,
 	glm::mat4 world = parent_transform;
 
     this->set_scale(glm::vec3(1, 1, 1));
-    glm::mat4 m_scale = glm::scale(glm::mat4(1.0), _body.scale);
+    glm::mat4 m_S = glm::scale(glm::mat4(1.0), _body.scale);
 
-    glm::mat4 m_r1s = glm::rotate(glm::mat4(1.0), _body.spin.rotation_angle, Y_AXIS);
-    glm::mat4 m_r2s = glm::rotate(glm::mat4(1.0), -glm::half_pi<float>() / 10, Z_AXIS);
+    glm::mat4 m_R1s = glm::rotate(glm::mat4(1.0), _body.spin.rotation_angle, Y_AXIS);
+    glm::mat4 m_R2s = glm::rotate(glm::mat4(1.0), -glm::half_pi<float>() / 10, Z_AXIS);
 
-    world = world * m_scale;
-    world = world * m_r1s;
-    world = world * m_r2s;
+    glm::mat4 m_To = glm::translate(glm::mat4(1), glm::vec3(-4, 0, 0));
+    glm::mat4 m_R1o = glm::rotate(glm::mat4(1.0), _body.spin.rotation_angle / 2, Y_AXIS);
+    glm::mat4 m_R2o = glm::rotate(glm::mat4(1.0), glm::half_pi<float>() / 10, Z_AXIS);
+
+    world = world * m_R2o;
+    world = world * m_R1o;
+    world = world * m_To;
+    world = world * m_S;
+    world = world * m_R1s;
+    world = world * m_R2s;
 
 	if (show_basis){
         bonobo::renderBasis(1.0f, 2.0f, view_projection, world);
