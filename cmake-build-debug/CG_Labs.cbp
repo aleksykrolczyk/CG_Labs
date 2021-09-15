@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CG_Labs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\dependencies\;CMake Files\dependencies\assimp-install\;CMake Files\dependencies\assimp-install\lib\;CMake Files\dependencies\assimp-install\lib\cmake\;CMake Files\dependencies\assimp-install\lib\cmake\assimp-5.0\;CMake Files\dependencies\glfw-install\;CMake Files\dependencies\glfw-install\lib\;CMake Files\dependencies\glfw-install\lib\cmake\;CMake Files\dependencies\glfw-install\lib\cmake\glfw3\;CMake Files\dependencies\glm-build\;CMake Files\src\;CMake Files\src\core\;CMake Files\src\external\;CMake Files\src\EDAF80\;CMake Files\src\EDAN35\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="external_libs">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/libexternal_libs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 external_libs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="external_libs/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/libexternal_libs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 external_libs/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bonobo">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/libbonobo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/stb-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 bonobo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bonobo/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/libbonobo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/stb-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 bonobo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment5">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment5/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment4">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment4/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment2">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment2/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment3">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment3/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment1">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAF80_Assignment1/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/EDAF80_Assignment1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 EDAF80_Assignment1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parametric_shapes">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/libparametric_shapes.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 parametric_shapes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parametric_shapes/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/libparametric_shapes.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 parametric_shapes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interpolation">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/libinterpolation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 interpolation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interpolation/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/libinterpolation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 interpolation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAF80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAN35_Assignment2">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/EDAN35_Assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 EDAN35_Assignment2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDAN35_Assignment2/fast">
+				<Option output="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/EDAN35_Assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/include"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-src"/>
+					<Add directory="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 EDAN35_Assignment2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/src/EDAN35/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/cmake-build-debug/config.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src/tinyfiledialogs.c">
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/tinyfiledialogs-src/tinyfiledialogs.h">
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/CelestialBody.cpp">
+			<Option target="EDAF80_Assignment1"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/CelestialBody.hpp">
+			<Option target="EDAF80_Assignment1"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment1.cpp">
+			<Option target="EDAF80_Assignment1"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment2.cpp">
+			<Option target="EDAF80_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment2.hpp">
+			<Option target="EDAF80_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment3.cpp">
+			<Option target="EDAF80_Assignment3"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment3.hpp">
+			<Option target="EDAF80_Assignment3"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment4.cpp">
+			<Option target="EDAF80_Assignment4"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment4.hpp">
+			<Option target="EDAF80_Assignment4"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment5.cpp">
+			<Option target="EDAF80_Assignment5"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/assignment5.hpp">
+			<Option target="EDAF80_Assignment5"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/interpolation.cpp">
+			<Option target="interpolation"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/interpolation.hpp">
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="interpolation"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/parametric_shapes.cpp">
+			<Option target="parametric_shapes"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/parametric_shapes.hpp">
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAN35/assignment2.cpp">
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAN35/assignment2.hpp">
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/Bonobo.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/Bonobo.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/BuildSettings.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/FPSCamera.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/FPSCamera.inl">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/InputHandler.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/InputHandler.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/Log.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/Log.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/LogView.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/LogView.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/ShaderProgramManager.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/ShaderProgramManager.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/TRSTransform.h">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/TRSTransform.inl">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/WindowManager.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/WindowManager.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/helpers.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/helpers.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/node.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/node.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/opengl.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/opengl.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/stb_impl.c">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/various.cpp">
+			<Option target="bonobo"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/various.hpp">
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imconfig.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_demo.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_draw.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_impl_glfw.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_impl_glfw.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_impl_opengl3.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_impl_opengl3.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_impl_opengl3_loader.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_internal.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_tables.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imgui_widgets.cpp">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imstb_rectpack.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imstb_textedit.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/Dear ImGui/imstb_truetype.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD/KHR/khrplatform.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD/glad.c">
+			<Option target="external_libs"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/GLAD/glad/glad.h">
+			<Option target="external_libs"/>
+			<Option target="bonobo"/>
+			<Option target="EDAF80_Assignment5"/>
+			<Option target="EDAF80_Assignment4"/>
+			<Option target="EDAF80_Assignment2"/>
+			<Option target="EDAF80_Assignment3"/>
+			<Option target="EDAF80_Assignment1"/>
+			<Option target="parametric_shapes"/>
+			<Option target="EDAN35_Assignment2"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMake/InstallAssimp.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMake/InstallGLFW.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMake/InstallGLM.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMake/InstallSTB.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMake/InstallTinyFileDialogs.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/CMake/RetrieveResourceArchive.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimp-config-version.cmake">
+			<Option virtualFolder="CMake Files\dependencies\assimp-install\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimp-config.cmake">
+			<Option virtualFolder="CMake Files\dependencies\assimp-install\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimpTargets-release.cmake">
+			<Option virtualFolder="CMake Files\dependencies\assimp-install\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimpTargets.cmake">
+			<Option virtualFolder="CMake Files\dependencies\assimp-install\lib\cmake\assimp-5.0\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glfw-install\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glfw-install\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/lib/cmake/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glfw-install\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glfw-install/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glfw-install\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-build/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glm-build\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-build/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glm-build\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/dependencies/glm-build/glmTargets.cmake">
+			<Option virtualFolder="CMake Files\dependencies\glm-build\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\core\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/core/config.hpp.in">
+			<Option virtualFolder="CMake Files\src\core\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\external\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAF80/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\EDAF80\"/>
+		</Unit>
+		<Unit filename="/Users/akrolczyk/studia/CG_Labs/src/EDAN35/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\EDAN35\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
