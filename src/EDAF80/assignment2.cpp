@@ -43,14 +43,16 @@ void
 edaf80::Assignment2::run()
 {
 	// Load the sphere geometry
-	auto const shape = parametric_shapes::createCircleRing(2.0f, 0.75f, 40u, 4u);
+//	auto const shape = parametric_shapes::createCircleRing(0.5, 0.5, 40u, 1u);
+//    auto const shape = parametric_shapes::createQuad(0.25f, 0.15f);
+    auto const shape = parametric_shapes::createSphere(0.15f, 10u, 10u);
 	if (shape.vao == 0u)
 		return;
 
 	// Set up the camera
-	mCamera.mWorld.SetTranslate(glm::vec3(0.0f, 1.0f, 9.0f));
+	mCamera.mWorld.SetTranslate(glm::vec3(0.0f, 0.0f, 0.5f));
 	mCamera.mMouseSensitivity = 0.003f;
-	mCamera.mMovementSpeed = 3.0f; // 3 m/s => 10.8 km/h
+	mCamera.mMovementSpeed = 3.0f/2; // 3 m/s => 10.8 km/h
 
 	// Create the shader programs
 	ShaderProgramManager program_manager;
@@ -136,16 +138,16 @@ edaf80::Assignment2::run()
 
 
 	auto const control_point_sphere = parametric_shapes::createSphere(0.1f, 10u, 10u);
-	std::array<glm::vec3, 9> control_point_locations = {
-		glm::vec3( 0.0f,  0.0f,  0.0f),
-		glm::vec3( 1.0f,  1.8f,  1.0f),
-		glm::vec3( 2.0f,  1.2f,  2.0f),
-		glm::vec3( 3.0f,  3.0f,  3.0f),
-		glm::vec3( 3.0f,  0.0f,  3.0f),
-		glm::vec3(-2.0f, -1.0f,  3.0f),
-		glm::vec3(-3.0f, -3.0f, -3.0f),
-		glm::vec3(-2.0f, -1.2f, -2.0f),
-		glm::vec3(-1.0f, -1.8f, -1.0f)
+	std::array<glm::vec3, 0> control_point_locations = {
+//		glm::vec3( 0.0f,  0.0f,  0.0f),
+//		glm::vec3( 1.0f,  1.8f,  1.0f),
+//		glm::vec3( 2.0f,  1.2f,  2.0f),
+//		glm::vec3( 3.0f,  3.0f,  3.0f),
+//		glm::vec3( 3.0f,  0.0f,  3.0f),
+//		glm::vec3(-2.0f, -1.0f,  3.0f),
+//		glm::vec3(-3.0f, -3.0f, -3.0f),
+//		glm::vec3(-2.0f, -1.2f, -2.0f),
+//		glm::vec3(-1.0f, -1.8f, -1.0f)
 	};
 	std::array<Node, control_point_locations.size()> control_points;
 	for (std::size_t i = 0; i < control_point_locations.size(); ++i) {
