@@ -50,7 +50,8 @@ edaf80::Assignment2::run()
 		return;
 
 	// Set up the camera
-	mCamera.mWorld.SetTranslate(glm::vec3(0.0f, 0.0f, 0.5f));
+	mCamera.mWorld.SetTranslate(glm::vec3(0.0f, 1, 9));
+//    mCamera.mWorld.SetRotateX(glm::half_pi<float>());
 	mCamera.mMouseSensitivity = 0.003f;
 	mCamera.mMovementSpeed = 3.0f/2; // 3 m/s => 10.8 km/h
 
@@ -138,16 +139,16 @@ edaf80::Assignment2::run()
 
 
 	auto const control_point_sphere = parametric_shapes::createSphere(0.1f, 10u, 10u);
-	std::array<glm::vec3, 0> control_point_locations = {
-//		glm::vec3( 0.0f,  0.0f,  0.0f),
-//		glm::vec3( 1.0f,  1.8f,  1.0f),
-//		glm::vec3( 2.0f,  1.2f,  2.0f),
-//		glm::vec3( 3.0f,  3.0f,  3.0f),
-//		glm::vec3( 3.0f,  0.0f,  3.0f),
-//		glm::vec3(-2.0f, -1.0f,  3.0f),
-//		glm::vec3(-3.0f, -3.0f, -3.0f),
-//		glm::vec3(-2.0f, -1.2f, -2.0f),
-//		glm::vec3(-1.0f, -1.8f, -1.0f)
+	std::array<glm::vec3, 9> control_point_locations = {
+		glm::vec3( 0.0f,  0.0f,  0.0f),
+		glm::vec3( 1.0f,  1.8f,  1.0f),
+		glm::vec3( 2.0f,  1.2f,  2.0f),
+		glm::vec3( 3.0f,  3.0f,  3.0f),
+		glm::vec3( 3.0f,  0.0f,  3.0f),
+		glm::vec3(-2.0f, -1.0f,  3.0f),
+		glm::vec3(-3.0f, -3.0f, -3.0f),
+		glm::vec3(-2.0f, -1.2f, -2.0f),
+		glm::vec3(-1.0f, -1.8f, -1.0f)
 	};
 	std::array<Node, control_point_locations.size()> control_points;
 	for (std::size_t i = 0; i < control_point_locations.size(); ++i) {
@@ -171,6 +172,9 @@ edaf80::Assignment2::run()
 	float basis_length_scale = 1.0f;
 
 	changeCullMode(cull_mode);
+
+    float x = 0;
+    int i = 0;
 
 	while (!glfwWindowShouldClose(window)) {
 		auto const nowTime = std::chrono::high_resolution_clock::now();
@@ -212,18 +216,41 @@ edaf80::Assignment2::run()
 
 
 		if (interpolate) {
-			//! \todo Interpolate the movement of a shape between various
-			//!        control points.
+			//! \todo Interpolate the movement of a shape between various control points.
+			glm::vec3 pos;
+
+            unsigned int idx0 = (i + 8) % control_point_locations.size();
+            unsigned int idx1 = (i + 0) % control_point_locations.size();
+            unsigned int idx2 = (i + 1) % control_point_locations.size();
+            unsigned int idx3 = (i + 2) % control_point_locations.size();
+
 			if (use_linear) {
-				//! \todo Compute the interpolated position
-				//!       using the linear interpolation.
+				//! \todoone Compute the interpolated position using the linear interpolation.
+                pos = interpolation::evalLERP(
+                        control_point_locations[idx1],
+                        control_point_locations[idx2],
+                        x
+                );
 			}
 			else {
-				//! \todo Compute the interpolated position
-				//!       using the Catmull-Rom interpolation;
-				//!       use the `catmull_rom_tension`
-				//!       variable as your tension argument.
+				//! \todo Compute the interpolated position using the Catmull-Rom interpolation use the `catmull_rom_tension` variable as your tension argument.
+                pos = interpolation::evalCatmullRom(
+                        control_point_locations[idx0],
+                        control_point_locations[idx1],
+                        control_point_locations[idx2],
+                        control_point_locations[idx3],
+                        catmull_rom_tension,
+                        x
+                );
 			}
+
+            circle_rings.get_transform().SetTranslate(pos);
+            x += std::chrono::duration<float>(deltaTimeUs).count()/1.5f;
+            if (x >= 1) {
+                x = 0;
+                i++;
+            }
+
 		}
 
 		circle_rings.render(mCamera.GetWorldToClipMatrix());
