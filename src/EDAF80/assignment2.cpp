@@ -216,10 +216,10 @@ edaf80::Assignment2::run()
 
 
 		if (interpolate) {
-			//! \todo Interpolate the movement of a shape between various control points.
+			//! \todone Interpolate the movement of a shape between various control points.
 			glm::vec3 pos;
 
-            unsigned int idx0 = (i + 8) % control_point_locations.size();
+            unsigned int idx0 = (i + (control_point_locations.size() - 1)) % control_point_locations.size();
             unsigned int idx1 = (i + 0) % control_point_locations.size();
             unsigned int idx2 = (i + 1) % control_point_locations.size();
             unsigned int idx3 = (i + 2) % control_point_locations.size();
@@ -233,7 +233,7 @@ edaf80::Assignment2::run()
                 );
 			}
 			else {
-				//! \todo Compute the interpolated position using the Catmull-Rom interpolation use the `catmull_rom_tension` variable as your tension argument.
+				//! \todone Compute the interpolated position using the Catmull-Rom interpolation use the `catmull_rom_tension` variable as your tension argument.
                 pos = interpolation::evalCatmullRom(
                         control_point_locations[idx0],
                         control_point_locations[idx1],

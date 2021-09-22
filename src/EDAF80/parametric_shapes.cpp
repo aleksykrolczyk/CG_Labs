@@ -149,7 +149,7 @@ bonobo::mesh_data parametric_shapes::createSphere(
     // dp/dphi       = (r*sin(theta)*cos(phi), r*sin(phi),    r*cos(theta)*cos(phi)), norm=r
 
     // simplified
-    // dp/dtheta = (cos(theta),          0,        sin(theta))         // tangent
+    // dp/dtheta = (cos(theta),          0,        -sin(theta))         // tangent
     // dp/dphi   = (sin(theta)*cos(phi), sin(phi), cos(theta)*cos(phi) // binormal
 
     size_t index = 0u;
@@ -176,12 +176,13 @@ bonobo::mesh_data parametric_shapes::createSphere(
                     0.0f
             );
 
-            auto n = glm::vec3(cos_theta, .0f , -sin_theta);
-            auto t = glm::vec3(sin_theta*cos_phi, sin_phi, cos_theta * cos_phi);
+            auto b = glm::vec3(sin_theta*cos_phi, sin_phi, cos_theta * cos_phi);
+            auto t = glm::vec3(cos_theta, .0f , -sin_theta);
 
-            normals[index] = n;
+            binormals[index] = b;
             tangents[index] = t;
-            binormals[index] = glm::cross(n, t);
+            normals[index] = glm::cross(t, b);
+
 
             index++;
             theta += d_theta;
